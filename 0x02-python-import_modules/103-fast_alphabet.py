@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 import string
 
-print(string.ascii_uppercase)
+print(''.join([c for c in string.ascii_uppercase]))
