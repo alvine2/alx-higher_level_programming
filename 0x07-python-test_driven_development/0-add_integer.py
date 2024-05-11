@@ -1,10 +1,5 @@
 #!/usr/bin/python3
-"""
-Module for add_integer method 
-contain one method and accept two values of int
-and cast them to int before adding 
-Return an int sum
-"""
+"""Module for add_integer method"""
 
 
 def add_integer(a, b=98):
@@ -30,4 +25,4 @@ def add_integer(a, b=98):
 
     if __name__ == "__main__":
         import doctest
-        doctest.testfile("tests/0-add_integer.txt")i
+        doctest.testfile("tests/0-add_integer.txt")
