@@ -10,7 +10,7 @@ from requests.auth import HTTPBasicAuth
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: ./10-my_github.py <alvine2> <Qwerty#90p>")
+        print("Usage: ./10-my_github.py:")
         sys.exit(1)
     
     auth = HTTPBasicAuth(sys.argv[1], sys.argv[2])
